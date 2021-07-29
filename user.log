@@ -1,0 +1,18 @@
+2021-07-29 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-29 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -  ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-29 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -  4 mappings in 'requestMappingHandlerMapping'
+2021-07-29 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -  Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-07-29 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -  ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  Initializing Servlet 'dispatcherServlet'
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  Detected StandardServletMultipartResolver
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  Detected AcceptHeaderLocaleResolver
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  Detected FixedThemeResolver
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1de6dc80
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  Detected org.springframework.web.servlet.support.SessionFlashMapManager@15c1b543
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2021-07-29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  Completed initialization in 5 ms
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  GET "/users/1", parameters={}
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -  Mapped to com.bharathi.elkdemo.controller.UserController#getUser(Integer)
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor -  Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor -  Writing [User(id=1, name=Bharathi, age=38, phoneNumber=null, aadhaarNumber=null)]
+2021-07-29 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet -  Completed 200 OK
